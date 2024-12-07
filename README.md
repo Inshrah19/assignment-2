@@ -1,8 +1,10 @@
-Report for Multi-Fragment App with SharedPreferences
-Name: Inshrah Alam
-ID: 0384
+#Report for Multi-Fragment App with SharedPreferences
+
+#Name: Inshrah Alam
+
+#ID: 0384
 ________________________________________
-Implementation of SharedPreferences and Fragments
+#Implementation of SharedPreferences and Fragments
 1. SharedPreferences
 •	Purpose: To persistently store user preferences, ensuring the data remains accessible even after the app is closed or restarted.
 •	Implementation Steps: 
@@ -25,7 +27,7 @@ o	Used FragmentManager in MainActivity to switch between the fragments.
 o	Added buttons in the activity_main.xml layout for user-friendly navigation.
 ________________________________________
 
-Key Challenges and Solutions
+#Key Challenges and Solutions
 1. Ensuring Data Validation
 •	Challenge: Validating user input in UserSettingsFragment to prevent empty fields.
 •	Solution: Used TextUtils.isEmpty() to check each field and displayed a Toast message if any field was empty.
@@ -42,7 +44,7 @@ Key Challenges and Solutions
 •	Challenge: Providing an intuitive way for users to switch between fragments.
 •	Solution: Added navigation buttons in activity_main.xml and implemented click listeners in MainActivity to switch fragments using FragmentManager.
 ________________________________________
-Conclusion
+#Conclusion
 This multi-fragment app successfully allows users to save, retrieve, and reset preferences using SharedPreferences. The modular design with fragments ensures a user-friendly experience and adheres to modern Android development principles. Challenges like data persistence, validation, and navigation were addressed effectively, resulting in a functional and scalable application.
 
 
