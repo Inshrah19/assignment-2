@@ -1,7 +1,3 @@
-Here’s an updated version of your report formatted for a README file with larger, more visually appealing headings using Markdown syntax:  
-
----
-
 # **Report for Multi-Fragment App with SharedPreferences**
 
 ## **Name:** Inshrah Alam  
